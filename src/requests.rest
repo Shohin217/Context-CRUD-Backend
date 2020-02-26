@@ -1,0 +1,31 @@
+
+@api  =http://localhost:9999/api
+
+
+
+
+GET {{api}}/purchases/1
+Content-Type: application/json
+
+
+###
+
+
+POST  {{api}}/purchases
+Content-Type: application/json
+
+
+{
+    "id": 0,
+    "category": "NEW" ,
+    "amount":"212",
+    "aboutPurchase":""
+}
+
+
+
+###
+
+
+DELETE {{api}}/purchases/4
+Content-Type: application/json
